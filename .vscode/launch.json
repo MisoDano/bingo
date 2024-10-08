@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "type": "msedge",     // Use "chrome" or "msedge" based on the browser you're debugging in
+        "request": "launch",
+        "name": "Launch React App",
+        "url": "http://localhost:3000",
+        "webRoot": "${workspaceFolder}/src",
+        "skipFiles": [
+          "${workspaceFolder}/node_modules/**/*.js",  // Skip all libraries in node_modules
+          "${workspaceFolder}/build/**/*.js",         // Skip bundled output in build directory (if applicable)
+          "<node_internals>/**/*.js"                  // Skip Node.js internal files
+        ],
+        "sourceMaps": true,                           // Ensure source maps are enabled
+        "smartStep": true                             // Optional: Automatically step through non-user code
+      }
+    ]
+  }

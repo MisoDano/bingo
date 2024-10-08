@@ -1,0 +1,112 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+:root {
+  --farba-background: rgb(220, 231, 231);
+  --farba-nadpis: #c52323;
+  --farba-tlacitka: rgb(89, 58, 151);
+
+  --farba-labels: rgb(89, 58, 151);
+  --farba-BINGO-nadpis: brown;
+  --farba-red-squares: #d4b8b8;
+  --farba-tlacitko-light: rgba(89, 58, 151, 0.858);
+  --farba-tlacitko-text: #f5f5f5;
+  --farba-navbar: white;
+  --farba-navbar-text: brown;
+  --farba-navbar-light: rgba(165, 42, 42, 0.832);
+  --farba-navbar-border: brown;
+
+  --farba-text: #c52323;
+  --farba-volane-cislo: brown;
+  --farba-historia-cislo-pozadie: white;
+  --farba-historia-cislo: brown;
+  --farba-historia-cislo-border: brown;
+  --farba-border-button: white;
+}
+
+body {
+  background-color: var(--farba-background);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto";
+
+  @media print {
+    background-color: transparent;
+  }
+}
+
+/* .marked-cells {
+@media print {
+background-color: #efdfdf;
+}}; */
+
+.tlacitka {
+  border: 1px solid var(--farba-border-button);
+  background-color: var(--farba-tlacitka);
+
+  border-radius: 20% / 100%;
+  padding: 0.5rem;
+  font-weight: bold;
+  cursor: pointer;
+  color: var(--farba-tlacitko-text);
+
+  @media print {
+    display: none;
+  }
+}
+
+.tlacitka:hover {
+  background-color: var(--farba-tlacitko-light);
+}
+
+.tlacitka-play-bingo {
+  border: 1px solid var(--farba-border-button);
+  background-color: var(--farba-tlacitka);
+  color: var(--farba-tlacitko-text);
+  border-radius: 20% / 100%;
+  padding: 0.5rem;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 1.5rem;
+
+  @media print {
+    display: none;
+  }
+}
+.tlacitka-play-bingo:hover {
+  background-color: var(--farba-tlacitko-light);
+}
+
+.tlacitka-hrajuce {
+  font-size: 1.7rem;
+  width: 13rem;
+}
+
+label {
+  color: var(--farba-labels);
+  font-weight: bold;
+  margin-right: 0.5rem;
+}
+
+input {
+  border: 1px solid var(--farba-labels);
+  border-radius: 10%;
+}
+
+h1 {
+  color: var(--farba-nadpis);
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 3rem;
+
+  @media print {
+    display: none;
+  }
+}
