@@ -1,5 +1,5 @@
-import logo from "./logo.svg";
-import "./App.css";
+
+
 import GenerateNumbersButton from "./generateNumbers";
 //import Tables from "./Tables"
 import { useState } from "react";
