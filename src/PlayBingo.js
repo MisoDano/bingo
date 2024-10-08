@@ -9,7 +9,7 @@ import NumberOfTables from "./NumberOfTables";
 import DeleteNumbersButton from "./DeleteNumbersButton";
 import App from "./App";
 import PlayBingoButtons from "./PlayBingoButtons";
-import BoardOfNumbers from "./BoardOfNumbers";
+
 import RefactorBoardOfNumbers from "./RefactorBoardOfNumbers";
 import { css } from "@emotion/css";
 

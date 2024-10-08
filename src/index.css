@@ -1,10 +1,4 @@
-/* @tailwind base;
-@tailwind components;
-@tailwind utilities; */
 
-/* @tailwind base;
-@tailwind components;
-@tailwind utilities; */
 
 :root {
   --farba-background: rgb(220, 231, 231);
@@ -41,10 +35,7 @@ body {
   }
 }
 
-/* .marked-cells {
-@media print {
-background-color: #efdfdf;
-}}; */
+
 
 .tlacitka {
   border: 1px solid var(--farba-border-button);
