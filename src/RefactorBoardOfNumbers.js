@@ -26,7 +26,7 @@ const RefactorBoardOfNumbers = ({
   //const [previousStopStart, setPreviousStopStart] = useState("start")
   //console.log(valueOfNumbers);
 
-  const API_KEY = "";
+  const API_KEY = "AIzaSyAYCgJT_eF2u7qBuDFyBCBTGDLHahHbOeg";
 
   const speakText = async (text, languageCode) => {
     try {
