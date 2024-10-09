@@ -2,7 +2,7 @@
   "name": "bingo",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://MisoDano.github.io/bingo",
+  "homepage": "https://misodano.github.io/bingo",
   "dependencies": {
     "@emotion/css": "^11.13.4",
     "@testing-library/jest-dom": "^5.17.0",
